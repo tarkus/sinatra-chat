@@ -1,0 +1,11 @@
+Chat server for Node.js
+=======================
+
+Requirements: nodejs
+
+Instructions
+============
+
+1. cd server
+2. node server.js
+3. Open http://127.0.0.1:8080/ in a browser
