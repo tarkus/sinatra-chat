@@ -9,7 +9,7 @@ var
 var wio = require('./wio');
 
 var currentUsers = [];
-var port = 8080;
+var port = 12727;
 
 wio.flush();
 
