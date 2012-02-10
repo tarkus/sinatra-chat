@@ -1,0 +1,7 @@
+{
+    "name": "sinatra_chat",
+    "version": "0.1"
+    "dependencies": {
+        "restler": "0.2.5"    
+    }
+}

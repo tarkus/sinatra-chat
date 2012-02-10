@@ -10,7 +10,7 @@ window.ChatApp = { };
 /**
  * The server to connect to
  */
-window.ChatApp.serverUri = 'http://lisa:8080/';
+window.ChatApp.serverUri = '';
 
 /**
  * Message Model

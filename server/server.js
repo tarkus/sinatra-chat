@@ -301,9 +301,8 @@ http.createServer(function(request, response) {
             }
             break;
         default:
-            fs.readFile('../client' + urlParts.pathname, function(error, content) {
+            fs.readFile(__dirname + '/../client' + urlParts.pathname, function(error, content) {
                 if (error) {
-                    console.log('../client' + urlParts.pathname);
                     response.writeHead(500, {'Content-Type' : 'text/plain' });
                     response.end('Error opening file :S');
                 } else {

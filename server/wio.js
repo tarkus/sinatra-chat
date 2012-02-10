@@ -1,6 +1,6 @@
-var rest = require('./node_modules/restler');
+var rest = require('restler');
 
-var baseURL = "http://willie:9393";
+var baseURL = "http://wio-service.heroku.com/";
 
 exports.get = function(id) {
   if (typeof id !== "undefined") {
