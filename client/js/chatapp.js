@@ -87,7 +87,7 @@ window.ChatApp.Connection = function(userCollection, messageCollection, nickName
     this.email = email;
 
     if (!serverUri) { 
-        serverUri = 'http://localhost:8080/';
+        serverUri = window.location.href;
     }
     this.serverUri = serverUri;
 
